@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="5dp"
+    app:contentPadding="10dp"
+    android:id="@+id/detailsPhieuMuon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/trangthai"
+            android:checked="true"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:buttonTint="#F44336"
+            android:layout_margin="5dp"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/coupon" />
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/txtMaPM"
+                    android:textSize="16dp"
+                    android:textColor="#F44336"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã Phiếu: 1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/type2" />
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/txtLoaiSach"
+                    android:textSize="16dp"
+                    android:textColor="#4991E6"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loại Sách: Ngôn Tình" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/openbook" />
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/txtTenSach"
+                    android:textSize="16dp"
+                    android:textColor="#4991E6"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên Sách: Hãy Đợi Anh" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/idcard" />
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/txtTenThanhVien"
+                    android:textSize="16dp"
+                    android:textColor="#4991E6"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thành Viên: Nguyễn Ngọc Minh" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/user" />
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/txtTenThuThu"
+                    android:textSize="16dp"
+                    android:textColor="#4991E6"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên Thủ Thư: Nguyễn Văn A" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/calendar" />
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/txtNgayMuon"
+                    android:textSize="16dp"
+                    android:textColor="#4991E6"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày mượn: 22/02/2022" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/barchart" />
+
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/txtTienThue"
+                    android:textSize="16dp"
+                    android:textColor="#4991E6"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tiền Thuê: 20000" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/btnRemove"
+                android:backgroundTint="@color/material_dynamic_neutral95"
+                android:padding="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/form"
+                android:layout_height="35dp"
+                android:src="@drawable/trash" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

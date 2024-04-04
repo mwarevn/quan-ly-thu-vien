@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:contentPadding="10dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:textColor="@color/purple_500"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn thành viên" />
+
+        <Spinner
+            android:background="@drawable/form"
+            android:padding="5dp"
+            android:id="@+id/spnThanhVien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:textColor="@color/purple_500"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn sách" />
+
+        <Spinner
+            android:background="@drawable/form"
+            android:padding="5dp"
+            android:id="@+id/spnSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+<!--        <TextView-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="12dp"-->
+<!--            android:textColor="@color/purple_500"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Tiền thuê" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edtTien"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/form"-->
+<!--            android:backgroundTint="@color/material_dynamic_neutral95"-->
+<!--            android:enabled="false"-->
+<!--            android:hint="Nhập tiền thuê"-->
+<!--            android:padding="10dp" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:stateListAnimator="@null"
+                android:textAllCaps="false"
+                android:layout_margin="10dp"
+                android:text="Cancel " />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:stateListAnimator="@null"
+                android:textAllCaps="false"
+                android:layout_margin="10dp"
+                android:text="Save " />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
